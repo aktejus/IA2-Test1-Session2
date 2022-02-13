@@ -30,7 +30,7 @@ int sum_composite_numbers(int n,int a[n])
   {
     if(is_composite(a[i]))
     {
-      sum =a[i];
+      sum +=a[i];
     }
   }
   return sum;
